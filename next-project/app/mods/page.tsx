@@ -70,7 +70,7 @@ const mods = () => {
 									img="img/Lithium.webp"
 									title="Lithium"
 									sub="No-compromises game logic/server optimization mod"
-									link="https://modrinth.com/mod/distanthorizons"
+									link="https://modrinth.com/mod/lithium"
 								/>
 								<Grindmad
 									img="img/Entity Culling.webp"
