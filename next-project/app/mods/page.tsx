@@ -16,7 +16,23 @@ const mods = () => {
 							Discord.
 						</p>
 					</div>
+					<div className="h-4"></div>
 					<div className="flex flex-col gap-16">
+						<div className="flex flex-col gap-4">
+							<span className="text-white text-2xl font-extrabold">
+								Clients:
+							</span>
+							<div className="flex justify-between w-full gap-4">
+								<Grindmad
+									img="img/badlion.avif"
+									title="Badlion Client"
+									sub="Free Minecraft Client"
+									link="https://www.badlion.net/de"
+								/>
+								<div className="w-1/3"></div>
+								<div className="w-1/3"></div>
+							</div>
+						</div>
 						<div className="flex flex-col gap-4">
 							<span className="text-white text-2xl font-extrabold">Basic:</span>
 							<div className="flex justify-between w-full gap-4">
