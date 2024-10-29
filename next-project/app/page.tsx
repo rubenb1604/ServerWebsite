@@ -4,6 +4,7 @@ import HowToJoin from "@/components/HowToJoin";
 import { Reveal } from "@/components/animations/Reveal";
 import Discord from "@/components/Discord";
 import Liveserver from "@/components/liveserver";
+import Header from "@/components/header";
 
 export default function Home() {
 	const testEvents = [
@@ -35,6 +36,7 @@ export default function Home() {
 				className="w-full h-screen flex flex-col items-center gap-36 p-28"
 				id="home"
 			>
+				<Header />
 				<Reveal>
 					<div id="home p-28 pt-12 ">
 						<Countdown />
